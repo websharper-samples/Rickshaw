@@ -14,6 +14,8 @@ if ($update) {
 
     dotnet add src package WebSharper
     dotnet add src package WebSharper.FSharp
-@dotnet-update@}
+    dotnet add src package WebSharper.UI
+    dotnet add src package WebSharper.Rickshaw
+}
 
 dotnet build src
